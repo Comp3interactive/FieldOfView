@@ -8,17 +8,24 @@ A simple Field of View system for the Unity Engine with target detection and obs
 
 - Set up two new Layers, one for your Target objects and one for your Obstacle objects
 
+![New Layers](https://i.imgur.com/4H19Eg4.png)
+
 - Set your player (target) to be on the Target layer
 
 - Set any obstacles that block the enemies field of view to be on the Obstacle layer
+
+![Field Of View Inspector](https://i.imgur.com/PW20aYg.png)
 
 - Attach the FieldOfView script to your Enemy
 
 - Configure the view radius and angle properties to your liking
 
+![Field Of View Inspector](https://i.imgur.com/q0Ovpzw.png)
+
 - Set the target layer mask to be your Target layer
 
 - Set the obscruction layer mask to be your Obstacle layer
+
 
 ## FAQ
 
